@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Om Pawar | Cyber Security Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="matrix"></canvas>
+
+<header>
+    <h1>Om Mahesh Pawar</h1>
+    <p id="typing"></p>
+    <button onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#courses">Courses</a>
+    <a href="#projects">Projects</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <img src="images/profile.jpg" class="profile">
+    <h2>Hello, I'm Om 👋</h2>
+    <p>B.Tech CSE 1st Year Student</p>
+    <p>Future Cyber Security Expert 🔐</p>
+    <a href="images/resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p><b>Education:</b> B.Tech Computer Science Engineering (1st Year)</p>
+    <p><b>Interests:</b> Gym Workout, Building Projects, Learning New Technologies</p>
+    <p><b>Career Goal:</b> To work in Cyber Security Department</p>
+</section>
+
+<!-- NEW SKILLS SECTION -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Python</div>
+    <div class="card">Cyber Security Basics</div>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <div class="card">Campus Ambassador - Skill Spardha</div>
+    <div class="card">Built Your Own ChatGPT Workshop</div>
+</section>
+
+<section id="courses">
+    <h2>Courses & Certifications</h2>
+    <div class="card">Programming for Everybody (Python) - Coursera</div>
+    <div class="card">Yuva AI for All - NASSCOM</div>
+    <div class="card">Introduction to Modern AI</div>
+    <div class="card">Mathematical Thinking in Computer Science</div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <img src="images/project1.jpg">
+        <h3>Smart Learning Through Miyawaki Forest</h3>
+        <p>
+        QR-based plant learning system with multilingual audio support.
+        </p>
+    </div>
+
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <img src="images/certificate1.jpg" onclick="openLightbox(this)">
+    <img src="images/project1.jpg" onclick="openLightbox(this)">
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img">
+</div>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: ompawar2116@gmail.com</p>
+    <p>Phone: 8600569928</p>
+    <p>GitHub: https://github.com/yourusername</p>
+</section>
+
+<footer>
+    <p>© 2026 Om Mahesh Pawar</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
